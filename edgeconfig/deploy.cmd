@@ -1,0 +1,1 @@
+mvn -X install install -Dapigee.config.options=update -Dapigee.config.dir=resources\edge -Dusername=apigeeadmin@ejada.com -Dpassword=Apg@dmPass123 -Dorg=ejada -Dapigee.env=dev -Dapigee.hosturl=http://192.168.210.182:8080 -Dapigee.apitype=configurations

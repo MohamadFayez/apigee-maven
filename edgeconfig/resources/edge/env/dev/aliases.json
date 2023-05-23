@@ -1,0 +1,29 @@
+
+
+[
+    {
+       "alias":"apigee02.sit.apps.apigee.dev.mdi",
+         "keystorename": "VSRSITAPGND02_KS",
+         "format": "keycertfile",
+         "certFilePath":"/certs/eg.com.mdi.sit2.apigee.cer",
+         "keyFilePath":"/certs/eg.com.mdi.sit2.apigee.key",
+         "password":"P@ssw0rd"
+      }
+,
+   {
+       "alias":"apigee03.sit.apps.apigee.dev.mdi",
+         "keystorename": "VSRSITAPGND03_KS",
+         "format": "keycertfile",
+         "certFilePath":"/certs/eg.com.mdi.sit3.apigee.cer",
+         "keyFilePath":"/certs/eg.com.mdi.sit3.apigee.key",
+         "password":"P@ssw0rd"
+      }
+,
+   {
+       "alias":"vswsitssor01.dev.mdi",
+         "keystorename": "SSO_TS",
+         "format": "certfile",
+         "certFilePath":"/certs/SSO.cer",
+         "password":"SSO@2022CA_cer"
+      }
+]

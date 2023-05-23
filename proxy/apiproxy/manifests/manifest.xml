@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="AM-Application-NotFound" version="SHA-512:b913c8e24f528c9ca3488da3379da3c17ba96a91e85888adae29984ee5a6200f740ec390bd705feb26396c873ded753ce029e676758679b55bc2e1a79c2f75b1"/>
+        <VersionInfo resourceName="AM-CopyPathSuffix" version="SHA-512:ccd1cfad316da67ce8817cacdbf8ef2aa3492e675516d895118293013443d9262502a10bc3e7c75a7148e829d85d6bb3b25d57b22cc638a7e8471ade05be0754"/>
+        <VersionInfo resourceName="AM-ExecutionFailed" version="SHA-512:aa116505e8b43877f5d8f50a9ed7565f196d15bb3690a5d2146d9c14804a19fc05020a18c89ef7c96de730d12e9538b1fe4747972a62ba7201f6ec451aede886"/>
+        <VersionInfo resourceName="AM-GatewayTimeout" version="SHA-512:26fcfc44a75adaee7af1121edcf9525a3e1df170fdd398cecd43748d8a2915ffb66c1dae37ae8c9cb3a6cea1e7db62653375ef5683d22f3f0ce391e05331357b"/>
+        <VersionInfo resourceName="AM-ServiceUnavailable" version="SHA-512:91b86b78aac0f3cd527d335944765fce2eb321414d81735b8d409f20abf21187acd69c3a52b928f7d8586711e6a6111efd597a1014a102cee8385466e6c663e5"/>
+        <VersionInfo resourceName="FC-PreLoginSharedFlowNoSqlInjection" version="SHA-512:d81b4bedf810829578d2df78f1d1795f7acad51ea8aaf79b0b0419b3ea30e0b8a8c7578a5ddfc99f6747c20e15e5cdb511d88006c980a945caebd3938f3f2cb7"/>
+        <VersionInfo resourceName="ML-ELK-Logging" version="SHA-512:133e1fd570151f7066cdbe3d597fb01c5e429cf19c4fec8474aa4783a33ab13bb34e6c4520a4b6cc8d2fbe75a634e5bc8a16eafc79068350e10031371f5ce4f6"/>
+        <VersionInfo resourceName="RF-Method-Not-Allowed" version="SHA-512:fe72fbe1f8987a850e4c429d47b7ed23c4bbfcb3d7a5a9348f8e3aa584142d47b8b7879d9347c283479b36b5348b4af51c54b85f05f50ddaafb07659a6ec0f7a"/>
+        <VersionInfo resourceName="RF-Request-NotFound" version="SHA-512:d0857cdc77d9237aae9f60d430e5f0823e9b0d51fcbd5f837db604d0665610f02659b3264c967d679741a1234410a2ab02ce9fc8d719720ee0c533a9e5a6eb92"/>
+        <VersionInfo resourceName="Request-PreFlow-ProxyEP-CatChAllErrors" version="SHA-512:edf652b781d1b55d808a6d7e84620094ef0e7018019c8cd9c759c1189d5e2d45c822cc4a07850aa4d362b11e8c959e8c51619b9324e52f1ae25934108d19ddfc"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:7bba7e8064fe3042172a78da3496836852a1617bb7f5136f5c9a974a31655affac660e383b33ae2621b56b7d50fa63cc5b172096e28ce11f4e4335f0387d9203"/>
+    </ProxyEndpoints>
+    <Resources/>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:2ba3fed88306d1ebcbee0821d71c500c85d31d76679ff9c542f1eeaf83e89a5a002f0b5ce055223b00c8a6f07bcf896080bf5779919cbb5ade95ce03ae2cc734"/>
+    </TargetEndpoints>
+</Manifest>

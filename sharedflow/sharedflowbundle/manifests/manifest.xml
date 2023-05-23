@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="ML-ELk-Logging" version="SHA-512:2cf7a5ced8b9f4831f8d2ba0837174bbe9e94cda3003a5aaec748583fea16caf52d20fad11b82fc33439d1b0b31ac9b2530619ff639c90432531227d69333638"/>
+    </Policies>
+    <ProxyEndpoints/>
+    <Resources/>
+    <SharedFlows>
+        <VersionInfo resourceName="default" version="SHA-512:8f9440edf536a3221b73417c65a6aef1e2739acc872313f9096bc32a6c57b31ef718231142a046b1e3727ba1e7942cc90ab3ba6756cd81f6f30d3c45ab6eb565"/>
+    </SharedFlows>
+    <TargetEndpoints/>
+</Manifest>

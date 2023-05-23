@@ -1,0 +1,55 @@
+[
+   {
+    "hostAliases": [
+        "apigee03.sit.apps.apigee.dev.mdi"
+    ],
+    "interfaces": [],
+    "listenOptions": [],
+    "name": "apigeeSITVHost3RoutersTLS",
+    "port": "9006",
+    "retryOptions": [],
+    "sSLInfo": {
+        "ciphers": [],
+        "clientAuthEnabled": "false",
+        "enabled": "true",
+        "ignoreValidationErrors": false,
+        "keyAlias": "apigee03.sit.apps.apigee.dev.mdi",
+        "keyStore": "ref://VSRSITAPGND03_KS_REF",
+        "protocols": []
+    },
+    "useBuiltInFreeTrialCert": false
+},
+
+ {
+    "hostAliases": [
+        "apigee02.sit.apps.apigee.dev.mdi"
+    ],
+    "interfaces": [],
+    "listenOptions": [],
+    "name": "apigeeSITVHost2RoutersTLS",
+    "port": "9006",
+    "retryOptions": [],
+    "sSLInfo": {
+        "ciphers": [],
+        "clientAuthEnabled": "false",
+        "enabled": "true",
+        "ignoreValidationErrors": false,
+        "keyAlias": "apigee02.sit.apps.apigee.dev.mdi",
+        "keyStore": "ref://VSRSITAPGND02_KS_REF",
+        "protocols": []
+    },
+    "useBuiltInFreeTrialCert": false
+},
+{
+    "hostAliases": [
+        "apigee02.sit.apps.apigee.dev.mdi",
+        "apigee03.sit.apps.apigee.dev.mdi"
+    ],
+    "interfaces": [],
+    "listenOptions": [],
+    "name": "default",
+    "port": "9005",
+    "retryOptions": [],
+    "useBuiltInFreeTrialCert": false
+}
+]

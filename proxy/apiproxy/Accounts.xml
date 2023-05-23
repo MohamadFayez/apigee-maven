@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="3" name="Accounts">
+    <Basepaths>/api/v1/process-workflow</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1652646913645</CreatedAt>
+    <CreatedBy>opdk@google.com</CreatedBy>
+    <Description>commit 9d4cab87 from develop branch. Deployed by a800044</Description>
+    <DisplayName>Process-Workflow</DisplayName>
+    <LastModifiedAt>1660144877508</LastModifiedAt>
+    <LastModifiedBy>opdk@google.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:cfa0557882263601dbfafd0b1d49f07833421070dbfbf6b11b1c827c97c972bfacb9ce4eef413cd6c16b45ad8f309f4c4680b6c7b854c7880428565d88ab70d6:dc-1</ManifestVersion>
+    <Policies>
+        <Policy>AM-Application-NotFound</Policy>
+        <Policy>AM-CopyPathSuffix</Policy>
+        <Policy>AM-ExecutionFailed</Policy>
+        <Policy>AM-GatewayTimeout</Policy>
+        <Policy>AM-ServiceUnavailable</Policy>
+        <Policy>FC-PreLoginSharedFlowNoSqlInjection</Policy>
+        <Policy>ML-ELK-Logging</Policy>
+        <Policy>RF-Method-Not-Allowed</Policy>
+        <Policy>RF-Request-NotFound</Policy>
+        <Policy>Request-PreFlow-ProxyEP-CatChAllErrors</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage async="false" continueOnError="false" enabled="true" name="AM-GatewayTimeout">
+    <DisplayName>AM-GatewayTimeout</DisplayName>
+    <Properties/>
+    <Headers>
+        <Header name="Content-Type">application/json</Header>
+    </Headers>
+    <Set>
+        <Payload contentType="application/json">
+            {
+            "message":"Gate Way time out"
+            }
+            {
+                "code": 5004,
+                "message": [
+                    "Gateway timeout."
+                ],
+                "reason": "Gateway Timeout"
+            }
+</Payload>
+    </Set>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+    <AssignTo createNew="false" transport="http" type="request"/>
+</AssignMessage>

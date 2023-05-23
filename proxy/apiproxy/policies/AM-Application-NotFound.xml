@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage async="false" continueOnError="false" enabled="true" name="AM-Application-NotFound">
+    <DisplayName>AM-Application-NotFound</DisplayName>
+    <Properties/>
+    <Set>
+        <Payload contentType="application/json">
+            {response.content }
+        </Payload>
+        <StatusCode>404</StatusCode>
+        <ReasonPhrase>Not Found</ReasonPhrase>
+    </Set>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+    <AssignTo createNew="false" transport="http" type="request"/>
+</AssignMessage>

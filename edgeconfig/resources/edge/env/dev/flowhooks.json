@@ -1,0 +1,22 @@
+[
+	{
+    "continueOnError": "true",
+    "name": "PreProxyFlowHook",
+    "sharedFlow": "Request-PreFlow-ProxyEP-Logging"
+	},
+	{
+    "continueOnError": "true",
+    "name": "PreTargetFlowHook",
+    "sharedFlow": "Request-PostFlow-TargetEP-Logging"
+	},
+	{
+    "continueOnError": "true",
+    "name": "PostTargetFlowHook",
+    "sharedFlow": "Response-PreFlow-TargetEP-Logging"
+	}, 
+	{
+    "continueOnError": "true",
+    "name": "PostProxyFlowHook",
+    "sharedFlow": "Response-PostFlow-ProxyEP-Logging"
+	}
+ ]

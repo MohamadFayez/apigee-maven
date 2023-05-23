@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage async="false" continueOnError="false" enabled="true" name="AM-ExecutionFailed">
+    <DisplayName>AM-ExecutionFailed</DisplayName>
+    <Properties/>
+    <Headers>
+        <Header name="Content-Type">application/json</Header>
+    </Headers>
+    <Set>
+        <Payload contentType="application/json">
+            {
+                "code": 5000,
+                "message": [
+                    "Internal Server Error."
+                ],
+                "reason": "Internal Server Error"
+            }
+        </Payload>
+    </Set>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+    <AssignTo createNew="false" transport="http" type="request"/>
+</AssignMessage>

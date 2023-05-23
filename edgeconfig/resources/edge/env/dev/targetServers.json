@@ -1,0 +1,151 @@
+[
+{
+    "host": "account-management.sit.apps.openshift.dev.mdi",
+    "isEnabled": true,
+    "name": "Account_Management",
+    "port": 80
+},{
+    "host": "card-management.sit.apps.openshift.dev.mdi",
+    "isEnabled": true,
+    "name": "Card_Management",
+    "port": 80
+},{
+    "host": "customer-management.sit.apps.openshift.dev.mdi",
+    "isEnabled": true,
+    "name": "Customer_Management",
+    "port": 80
+},{
+    "host": "data-lake-microgateway.sit.apps.openshift.dev.mdi",
+    "isEnabled": true,
+    "name": "Data_Lake_Microgateway",
+    "port": 80
+},{
+    "host": "deposit-management.sit.apps.openshift.dev.mdi",
+    "isEnabled": true,
+    "name": "Deposit_Management",
+    "port": 80
+},{
+    "host": "device-management.sit.apps.openshift.dev.mdi",
+    "isEnabled": true,
+    "name": "Device_Management",
+    "port": 80
+},{
+    "host": "document-management.sit.apps.openshift.dev.mdi",
+    "isEnabled": true,
+    "name": "Document_Management",
+    "port": 80
+},{
+    "host": "fawry-billers-management.sit.apps.openshift.dev.mdi",
+    "isEnabled": true,
+    "name": "Fawry_Management",
+    "port": 80
+},{
+    "host": "identity-management.sit.apps.openshift.dev.mdi",
+    "isEnabled": true,
+    "name": "Identity_Management",
+    "port": 80
+},{
+    "host": "lookup-management.sit.apps.openshift.dev.mdi",
+    "isEnabled": true,
+    "name": "Lookup_Management",
+    "port": 80
+},{
+    "host": "dms-integration-service.sit.apps.openshift.dev.mdi",
+    "isEnabled": true,
+    "name": "MdiTermsAnCondition",
+    "port": 80
+},{
+    "host": "notification-management.sit.apps.openshift.dev.mdi",
+    "isEnabled": true,
+    "name": "Notification_Management",
+    "port": 80
+},{
+    "host": "otp-management.sit.apps.openshift.dev.mdi",
+    "isEnabled": true,
+    "name": "OTP_Management",
+    "port": 80
+},{
+    "host": "pfm-management.sit.apps.openshift.dev.mdi",
+    "isEnabled": true,
+    "name": "PFM_Management",
+    "port": 80
+},{
+    "host": "process-workflow-microgateway.sit.apps.openshift.dev.mdi",
+    "isEnabled": true,
+    "name": "Process_Workflow",
+    "port": 80
+},{
+    "host": "product-management.sit.apps.openshift.dev.mdi",
+    "isEnabled": true,
+    "name": "Product_Management",
+    "port": 80
+},{
+    "host": "service-request-management.sit.apps.openshift.dev.mdi",
+    "isEnabled": true,
+    "name": "Service_Request_Management",
+    "port": 80
+},{
+    "host": "vsrdevsplnkf01.dev.mdi",
+    "isEnabled": true,
+    "name": "Splunk",
+    "port": 6514
+},{
+    "host": "sprinklr-management.sit.apps.openshift.dev.mdi",
+    "isEnabled": true,
+    "name": "Sprinklr_Management",
+    "port": 80
+},{
+    "host": "statement-management.sit.apps.openshift.dev.mdi",
+    "isEnabled": true,
+    "name": "Statement_Management",
+    "port": 80
+},{
+    "host": "vswsitssor01.dev.mdi",
+    "isEnabled": true,
+    "name": "Sso_Ssl",
+    "port": 443,
+    "sSLInfo": {
+        "ciphers": [],
+        "clientAuthEnabled": "false",
+        "enabled": "true",
+        "ignoreValidationErrors": false,
+        "protocols": []
+    }
+},{
+    "host": "vswsitssor01.dev.mdi",
+    "isEnabled": true,
+    "name": "Sso_Tcp",
+    "port": 4443,
+    "sSLInfo": {
+        "ciphers": [],
+        "clientAuthEnabled": "false",
+        "enabled": "true",
+        "ignoreValidationErrors": false,
+        "protocols": []
+    }
+},{
+    "host": "vswsitssor01.dev.mdi",
+    "isEnabled": true,
+    "name": "Sso_Ssl",
+    "port": 443,
+    "sSLInfo": {
+        "ciphers": [],
+        "clientAuthEnabled": "false",
+        "enabled": "true",
+        "ignoreValidationErrors": false,
+        "protocols": []
+    }
+},{
+    "host": "vswsitssor01.dev.mdi",
+    "isEnabled": true,
+    "name": "Sso_Tcp",
+    "port": 4443,
+    "sSLInfo": {
+        "ciphers": [],
+        "clientAuthEnabled": "false",
+        "enabled": "true",
+        "ignoreValidationErrors": false,
+        "protocols": []
+    }
+}
+]

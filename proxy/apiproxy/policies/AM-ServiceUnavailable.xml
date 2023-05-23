@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage async="false" continueOnError="false" enabled="true" name="AM-ServiceUnavailable">
+    <DisplayName>AM-ServiceUnavailable</DisplayName>
+    <Properties/>
+    <Headers>
+        <Header name="Content-Type">application/json</Header>
+    </Headers>
+    <Set>
+        <Payload contentType="application/json">
+            {
+                "code": 5003,
+                "message": [
+                    "The Service is temporarily unavailable."
+                ],
+                "reason": "Service Unavailable"
+            }
+</Payload>
+    </Set>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+    <AssignTo createNew="false" transport="http" type="request"/>
+</AssignMessage>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SharedFlowBundle revision="3" name="ELK-Logging">
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1659898555865</CreatedAt>
+    <CreatedBy>opdk@google.com</CreatedBy>
+    <Description>Populate the cache with the JWT token</Description>
+    <DisplayName>Populate-JWS-Token</DisplayName>
+    <LastModifiedAt>1659898555865</LastModifiedAt>
+    <LastModifiedBy>opdk@google.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:14d9166309248992a27e3845b2e4267ef397333341b3a6517962403f3ef04a3fa279b6a57c8be912a976880cdfbcd34354d0a853c39a6ce3ae8efba77a96239c:dc-1</ManifestVersion>
+    <Policies>
+        <Policy>ML-ELk-Logging</Policy>
+    </Policies>
+    <Resources/>
+    <Spec></Spec>
+    <subType>SharedFlow</subType>
+    <SharedFlows>
+        <SharedFlow>default</SharedFlow>
+    </SharedFlows>
+</SharedFlowBundle>

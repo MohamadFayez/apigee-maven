@@ -1,0 +1,20 @@
+[
+ 
+
+    {
+        "name": "SSO_TS_REF",
+        "refers": "SSO_TS",
+        "resourceType": "KeyStore"
+    },
+    {
+        "name": "VSRSITAPGND03_KS_REF",
+        "refers": "VSRSITAPGND03_KS",
+        "resourceType": "KeyStore"
+    },
+
+    {
+        "name": "VSRSITAPGND02_KS_REF",
+        "refers": "VSRSITAPGND02_KS",
+        "resourceType": "KeyStore"
+    }
+]

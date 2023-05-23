@@ -1,0 +1,286 @@
+[
+
+
+    {
+        "encrypted": true,
+        "entry": [
+            {
+                "name": "ID",
+                "value": "W2Gd2fzyQOaRiUXUy7-kXyhRRVV9U0pemn8XutdmEqY"
+            },
+            {
+                "name": "Value",
+                "value": "-----BEGIN RSA PRIVATE KEY----- MIIEogIBAAKCAQEAlEDctlob5WQe0zpWlpBNljku5O7MAIDctdXQSAjg+ql5Tdud B/s6YBGzdztnISprhKBQy0aJyuNPrmNfPMEjvF7LBKtSOgi5UphjqtEvqnvHqU4a Mi1Ze5cqVbhFilWCempZCxAn8ZPv/VRCcwkcwbeixmAz1Dz2jU0OQUZaS0LW+mxT PU1QX1loAAtrKpl6oMCkQKic+Iq/JXg5p4EOrutn8A0y5lnBFhdFXS25KEWfFSyu qkb0BRsiw01D8XKOChii9RoR1N2jqjOld2CZ5Ed5iv1xXDunkWa/ef6QeYgUs+Sf Qsm+aC9KCdkJzJeo5t8+cteouGdfMjqqTM8NbQIDAQABAoIBAEqI9a5ETWQd2xWN bf0Snb9aDoaQvEXAg7ZzwdyFgj7jt5X6RM+/chDctWLLncTh495xD02zsBEuCWB+ m2IbJFFPQzicvaFpw2qQLQOzWgiXZMFs/+ScQjHNxT4FgAjVhtzu3MegHsTpAK5X j3TwbuHB5ndf5I7e+4H87J7KtRjCwpvW/CAAGX4AXK3SFOe30GVZdceMaeT7inEK YyVGEw8yc7GXULJdMoOfZz0YoQM5zS/trtK680FaQY2XpaBfL3eh2nVptKlPOFSP diTCLu/CDV4mVmD8m7X43sshwUDfjeW9oRTR1Wr4nKbWmS0iR7rdw+CToc+8jnak ULMVZcECgYEA5GzT3ZXtOCVRgrLCXRx1YEoAtEjoTqAqBnr/ylOIwJMQA3DgcWsl kbSFI8OCrwVso+A/ygy+xeNFq/npKiwPQmLpiIO/94Q51mRdRai1nfm9lUPEUezk 0Ml0VRv6R0h7+AjFFa3nKx05g93nLZ9yFZEy850KmF4x31bnY/j2st0CgYEApiZv JiPXpDHnrX/UEAm85A8tbuBHHNWYyIrbeuZI92HzQPlSBDd6KqqZCB6zMGUJwWkx PnWpA7svl4dlBgdEg4CTDusdl7tDRH+u/hZo4f9Oi/G6m0eRGv5UWliqwQZW42OH uJ16l9rmLPupokeNUuZ+hBQr2Yr5zd6dEUwJM9ECgYBn2FnRKPG5Tq3pvx7Becia x8neLC8AX6v7WjujXaqT8ceb6NsAdPeVb/3/LkjhDJRBRBd74aNxD0uDTZAEzhb5 1UHaABtriT9KCkKlAnfeo8TecPp1TD8R9CPg9WEouvkw37vJiU/It/aHzn/kq9IP n/0L518Duf7uS/HR70MoOQKBgEww0cV2qDt2WxxXwwI7xO/7+cSfelzBoldMPcuE 8K7oruj7q92dJxuLsbNkiJ1HqAqWV2uh/whj/TYKc4wpJwT6n/U2YhKjX/x4ZOHF mwEP15AbIIx2bBcpy7rGcD8lzhBmIuXI6V/blLPKEAcHssnyQtAEg/s1XMpILFSz PoERAoGAX1J1d6AC2v0FDt/55PKxU7t5He8TrDyCwyvsp7oui1zTHHOZP6GFwXNo Pt8FyP74hioae0lBF+ZdsaIvhbefXpR12qJAwTYixo0o9tQpg6wJOhtxAtV1iXyT /typfetv2kCYRzVFdyqGntsH07BskFSvfQrpM6WwhC61jybetH8= -----END RSA PRIVATE KEY-----"
+            }
+        ],
+        "name": "Apigee_privatekey_secure"
+    },
+
+
+    {
+        "encrypted": false,
+        "entry": [
+            {
+                "name": "GetAccessToken_URL",
+                "value": "/as/token.oauth2"
+            },
+            {
+                "name": "GetClientId_URL",
+                "value": "/as/clients.oauth2"
+            }
+        ],
+        "name": "ClientId_AccessToken_URLs"
+    }
+
+,
+
+
+    {
+        "encrypted": false,
+        "entry": [
+            {
+                "name": "Customer-Management",
+                "value": "/customers/*/customer/client-id,/customers/customer/national-id/recover,/customers/customer/national-id/reset-password,/customers/customer/national-id/unlock,/customers/customer/account-number/recover,/customers/client-id/authenticate,/customers/validate-token-app,/customers/customer/preferred-langage,/customers/terms-and-conditions/accept,/customers/customer/account-number/unlock,/customers/customer/account-number/reset-password,/auth/bio,/customers,/customers/register,/customers/existence/username/*/mobile-number/*,/customers/mobile-number/existence/check,/customers/mobile-number/authenticate,/customers/password/validate,/customers/*/customer/client-id,/auth/flow,/customers/customer/card-number/authenticate,/customers/customer/accountnumber/authenticate,/customers/customer/national-id/authenticate,/customers/guest/mobile-number,/customers/customer/card-number/recover,/customers/customer/card-number/reset-password,/customers/customer/card-number/unlock,/customers/customer-id/authenticate"
+            },
+            {
+                "name": "HardBinding",
+                "value": "/dynamic/ropc,/oauth5/dcr/publicKey,/oauth5/auth/jws,/oauth5/dcr/jws,/oauth5/dynamic/ropc"
+            },
+            {
+                "name": "Landing-Page-Deals",
+                "value": "/market/service-providers,/market/products,/market/videos,/market/offers"
+            },
+            {
+                "name": "Lookup",
+                "value": "/contents/config/load,/country/*/cities,/countries,/contents/tc/load,/bank/locations"
+            },
+            {
+                "name": "Notification-Management",
+                "value": "/notifications/device-id/register"
+            },
+            {
+                "name": "expiration_threshold",
+                "value": "360"
+            }
+		,
+            {
+                "name": "Fawry-Management",
+                "value": "/biller/aggregator/billInquiry,/biller/aggregator/biller/category,/biller/aggregator/transaction,/biller/aggregator/transaction/history,/biller/aggregator/calculateFees,/biller/aggregator/billPayment,/biller/aggregator/generate/receipt/pdf"
+            }
+		,
+			{
+				"name": "Sprinklr-Management",
+                "value": "/sprinklr/check-customer-existence/*,/sprinklr/createcase"
+			}
+        ],
+        "name": "PublicURIValues"
+    }
+
+,
+
+    {
+        "encrypted": false,
+        "entry": [
+            {
+                "name": "AuthenticateUser_Resource",
+                "value": "/as/token.oauth2"
+            },
+            {
+                "name": "ID_Token_Resource",
+                "value": "/idp/userinfo.openid"
+            },
+            {
+                "name": "grant_type",
+                "value": "urn:ietf:params:oauth:grant-type:token-exchange"
+            },
+            {
+                "name": "resource",
+                "value": "http://jwt.backendservices.mdi.local"
+            },
+            {
+                "name": "scope",
+                "value": "openid protected"
+            },
+            {
+                "name": "subject_token_type",
+                "value": "urn:ietf:params:oauth:token-type:access_token"
+            }
+        ],
+        "name": "ROPC"
+    }
+,
+
+    {
+        "encrypted": false,
+        "entry": [
+            {
+                "name": "LoginAttemptClientId",
+                "value": "mdi_idfirst_client_apigee"
+            },
+            {
+                "name": "client_id",
+                "value": "mdi_tx_client_sit_apigee002"
+            }
+        ],
+        "name": "TokenExchange-Client_id"
+    },
+    {
+        "encrypted": false,
+        "entry": [
+            {
+                "name": "limit",
+                "value": "5242880"
+            }
+        ],
+        "name": "multipart-form-data_SizeLimit"
+    }
+,
+    {
+        "encrypted": false,
+        "entry": [
+            {
+                "name": "Content-Type",
+                "value": "application/json"
+            },
+            {
+                "name": "Cookie",
+                "value": "PF=2hWaTNIAfq5WFQgpkC7OTg"
+            },
+            {
+                "name": "X-XSRF-Header",
+                "value": "PingFederate"
+            },
+            {
+                "name": "response_type",
+                "value": "token id_token"
+            },
+            {
+                "name": "response_mode",
+                "value": "pi.flow"
+            },
+            {
+                "name": "scope",
+                "value": "email phone openid profile"
+            },
+            {
+                "name": "nonce",
+                "value": "19dsd4ac-884d-41b0-a5c0-38d8r9a705d23"
+            },
+            {
+                "name": "state",
+                "value": "079e5691-3bf3-4c4b-8d77-c05c16d3fa53"
+            },
+            {
+                "name": "client_id",
+                "value": "mdi_idfirst_client_apigee_v1"
+            },
+            {
+                "name": "client_id11",
+                "value": "mdi_idfirst_client_apigee_v1"
+            }
+        ],
+        "name": "Flow_parameters"
+    }
+,
+    {
+        "encrypted": false,
+        "entry": [
+            {
+                "name": "Account-Management",
+                "value": "/accounts/opening-purposes,/account/existance/account-number/*,/account/alias/update,/accounts/transfer/eligibility/check,/accounts/account/statement/eligibility/check,/accounts/account/e-statement/eligibility/check"
+            },
+            {
+                "name": "Accounts",
+                "value": "/account/alias/update,/account/exist,/customer/accounts/closed"
+            },
+            {
+                "name": "Card-Management",
+                "value": "/cards/card/param/ecommerce,/cards/customer/external-card/*,/cards/customer/external-card,/cards/customer/external-card/*,/cards/physical-card/eligibility/check,/cards/online-card/eligibility/check,/cards/customer/external-cards,/cards/customer/card/block,/cards/customer/card/activate,/cards/card/pin/retrieve,/cards/card/pin/change,/cards/card/pin/set,/cards/card/pin/validate,/cards/card/pan/validate,/cards/customer/card/close,/cards/customer/card/activate/otp,/cards/customer/physical-card/qr/validate,/cards/customer/physical-card/activate,/cards/physical-card/replace/eligibility/check,/cards/physical-card/activate/eligibility/check"
+            },
+            {
+                "name": "Customer-Management",
+                "value": "/customers,/customers/marital-status,/customers/existance/mobile-number/*,/customers/existence/username/*/mobile-number/*,/customers/password/validate,/customers/register,/customers/mobile-number/authenticate,/customers/mobile-number/existence/check,/customers/onboarded/customer-id/*,/customers/user-name/recover,/customers/terms-and-conditions/accept,/customers/customer/preferred-langage,/customers/communication-address,/documents/*,/documents/customer/document,/customers/customer,/documents/download,/customers/customer/marital-status,/customers/professions,/customers/communication-address,/customers/professions,/auth/bio,/auth/flow,/dynamic/ropc,/customers/terms-and-conditions/accept,/customers/income-sources,/customers/validate-token-app,/customers/customer/communication-address,/customers/customer/account-number/unlock,/customers/client-id/authenticate,/customers/customer/national-id/recover,/customers/customer/national-id/unlock,/customers/customer/account-number/recover,/customers/customer/national-id/reset-password/customers/customer/account-number/reset-password,/customers/customer/beneficiary-payment-info,/customers/customer/beneficiary-payment-info/*,/customers/customer/beneficiary,/customers/customer/beneficiaries,/customers/customer/beneficiary/*,/customers/automation/customer/allaccounts,/customers/automation/approve/service-request,/customers/automation/reject/service-request,/customers/customer/additional-mobile-number,/customers/customer/additional-mobile-number/promote,/customers/customer/email,/customers/customer/email/authenticate,/customers/customer/email/verify,/customers/customer/additional-mobile-number,/customers/customer/mobile-number,/customers/customer/profile,/customers/customer/banking-profile,/customers/non-existence/mobile-number/*,/customers/customer/login/history,/customers/customer/password/change,/customers/*/customer/client-id,/customers/customer/accountnumber/authenticate,/customers/customer/national-id/authenticate,/customers/customer/card-number/authenticate,/customers/guest/mobile-number,/customers/customer/card-number/recover,/customers/customer/card-number/reset-password,/customers/customer/card-number/unlock,/customers/customer/national-id/recover,/customers/customer/national-id/reset-password,/customers/customer/account-number/recover,/customers/customer/account-number/unlock,/customers/customer/national-id/unlock,/customers/customer/account-number/reset-password,/customers/profession-types"
+            },
+            {
+                "name": "Document-Management",
+                "value": "/documents/customer/document/upload,/documents/customer/document-type/*,/documents/customer/document/download,/documents/customer/document/delete,/documents/customer/delete/document-type/*"
+            },
+            {
+                "name": "HardBinding",
+                "value": "/token,/dcr/jws,/auth/jws,/dcr/publicKey,/validate-token-app,/dynamic/ropc,/refreshtoken,/logout"
+            },
+            {
+                "name": "Landing-Page-Deals",
+                "value": "/market/offers,/market/products,/market/videos,/market/service-providers"
+            },
+            {
+                "name": "Lookup",
+                "value": "/country/*/cities,/countries,/other-nationalization/*,/card/validity,/banks,/bank/locations,/customer-profile/annual-income,/customer-profile/business-activities,/contents/config/load,/contents/tc/load,/card/card-closure-reasons"
+            },
+            {
+                "name": "Notification-Management",
+                "value": "/notifications/device-id/notification/status/change,/notifications,/notifications/customer/topic/opt,/notifications/instant/sms,/notifications/push,/notifications/device-id/register,/notifications/unreadcount,/notifications/search,/notifications/readall,/notifications/push/campaign"
+            },
+            {
+                "name": "OTP-Management",
+                "value": "/customer/token-app/unlock,/customer/token-app/validate,/customer/token-app/freez,/customer/token-app/credentials/refresh,/customer/token-app/activate,/customer/token-app/unfreez,/customer/token-app/deactivate,/customer/token-app/credentials/reactivate,/customer/token-app/status"
+            },
+            {
+                "name": "Process-Workflow",
+                "value": "/customer/onboarding/start,/customer/status/check,/customer/onboarding/continue,/card/order,/online-card/order,/additional-account/open,/accounts/customer/account/self-account/transfer,/accounts/customer/account/OneBank/transfer,/accounts/customer/account/other-bank/transfer,/accounts/customer/account/fund,/accounts/customer/prepaid-card/fund,/accounts/customer/external-card/fund,/customer/fatca/service-request/create,/service-request/cards/customer/card/travel-memo/add,/service-requerst/cards/customer/card/physical/deactivate,/service-requerst/cards/customer/digital/close,/customer/onboarding/retry,/service-requerst/cards/customer/prepaid-card/close,/cards/customer/card/replace,/service-request/cards/customer/card/report,/service-requerst/cards/customer/card/close,/customers/customer/service-request/resume"
+            },
+            {
+                "name": "Product-Management",
+                "value": "/customer/eligible-products/load,/customer/product,/product/customer/opportunity,/customer/eligible-products,/customer/product/history,/product/fees/calculate,/customer/filter/eligible-products,/customer/eligible-products/retreive,/customer/product/active,/product/fees/compute"
+            },
+            {
+                "name": "Identity-Management",
+                "value": "/v1/mother-names-list/retrieve,/v1/customer/validate-retrieve,/v1/customer/exist/national-id/*,/v1/ecards/token,/api/v1/sdk-session/start/,/api/v1/bundle/start-session/,/api/v1.4/ocr/,/api/v1/transaction/combine-ocr/,/api/v1/liveness/register/,/api/v1/face/match/,/api/v1.2/watermark/start/,/api/v1.2/watermark/predict/,/api/v1/transliterate/"
+            },
+            {
+                "name": "Statement-Management",
+                "value": "/statements/account/statement/request"
+            },
+            {
+                "name": "Fawry-Management",
+                "value": "/biller/aggregator/billInquiry,/biller/aggregator/biller/category,/biller/aggregator/transaction,/biller/aggregator/transaction/history,/biller/aggregator/calculateFees,/biller/aggregator/billPayment,/payment,/biller/aggregator/onboardedBillPayment,/biller/aggregator/generate/receipt/pdf"
+            },
+            {
+                "name": "Fawry-Payment",
+                "value": "/payment"
+            },
+            {
+                "name": "Deposit-Management",
+                "value": "/customer/deposit/*/transactions,/customer/deposit/book,/customer/deposits/*,/customer/deposits,/customer/deposit/open/eligibility"
+            },
+            {
+                "name": "PFM-Management",
+                "value": "/transactions,/categories"
+            },
+            {
+                "name": "ServiceRequest-Management",
+                "value": "/service-request/customers/customer/service-requests"
+            },
+			{
+                "name": "Sprinklr-Management",
+                "value": "/sprinklr/check-customer-existence/*,/sprinklr/createcase"
+            }
+        ],
+        "name": "KnownResources"
+    }
+,
+
+    {
+        "encrypted": true,
+        "entry": [
+            {
+                "name": "IVR_publickey",
+                "value": "-----BEGIN PUBLIC KEY----- MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsRe/osrtv9+tV6QLH1tbBjq0wb8+csQpd8N+4OPzs1mhFOOcg0bqPMCuRh2HM7b/dF783rxHjpio6h14HEqRzZmOMoyfTqlPRuyOG0S4UmZ/B4yHaByQS4/wiihSvVUu+zFNBgInthl/DZ7FqWQRiZ7eglcsId5iN94/3EXeD6Z7XsJGcar4dW6Lvf2XqdfX7xoFa612ho0oKb2opzO+CeDMiWslxo1i0Kt87X9PsL74EkmLzNllK6tah7Eoq7uKBDFescvTghkBMZPG6DpXEy/w1mz4qUfgP+NP6a0QzzUqc7hCLLF+LtliqlSwycHyAT8hgfS/vszEdoSrkE9iSwIDAQAB -----END PUBLIC KEY-----" }
+        ],
+        "name": "IVR_publickey_secure"
+    }
+
+
+
+
+]

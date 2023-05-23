@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TargetEndpoint name="default">
+    <Description/>
+    <FaultRules>
+        <FaultRule name="ExecutionFailed">
+            <Step>
+                <Name>AM-ExecutionFailed</Name>
+            </Step>
+            <Condition>(fault.name = "ExecutionFailed")</Condition>
+        </FaultRule>
+        <FaultRule name="GatewayTimeout">
+            <Step>
+                <Name>AM-GatewayTimeout</Name>
+            </Step>
+            <Condition>(fault.name = "GatewayTimeout")</Condition>
+        </FaultRule>
+        <FaultRule name="ServiceUnavailable">
+            <Step>
+                <Name>AM-ServiceUnavailable</Name>
+            </Step>
+            <Condition>(fault.name = "ServiceUnavailable") or (response.status.code = 503) or (response.content = "no healthy upstream" )</Condition>
+        </FaultRule>
+    </FaultRules>
+    <PreFlow name="PreFlow">
+        <Request>
+            <Step>
+                <Name>AM-CopyPathSuffix</Name>
+            </Step>
+        </Request>
+        <Response/>
+    </PreFlow>
+    <PostFlow name="PostFlow">
+        <Request/>
+        <Response/>
+    </PostFlow>
+    <Flows>
+        <Flow name="Set Account Alias">
+            <Description/>
+            <Request/>
+            <Response/>
+            <Condition>(proxy.pathsuffix MatchesPath "/account/alias/update") and (request.verb = "POST")</Condition>
+        </Flow>
+        <Flow name="Check Account Existence">
+            <Description/>
+            <Request/>
+            <Response/>
+            <Condition>(proxy.pathsuffix MatchesPath "/account/exist") and (request.verb = "POST")</Condition>
+        </Flow>
+        <Flow name="Retrieve Closed Account">
+            <Description>Retrieve Closed Account</Description>
+            <Request/>
+            <Response/>
+            <Condition>(proxy.pathsuffix MatchesPath "/customer/accounts/closed") and (request.verb = "GET")</Condition>
+        </Flow>
+    </Flows>
+    <HTTPTargetConnection>
+        <Properties/>
+        <URL>http://account-management.dev.apps.openshift.dev.mdi/domain/v1/accounts</URL>
+    </HTTPTargetConnection>
+</TargetEndpoint>

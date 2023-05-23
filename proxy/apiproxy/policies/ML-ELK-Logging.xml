@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FlowCallout async="false" continueOnError="false" enabled="true" name="ML-ELK-Logging">
+    <DisplayName>ML-ELK-Logging</DisplayName>
+    <FaultRules/>
+    <Properties/>
+    <SharedFlowBundle>ELK-Logging</SharedFlowBundle>
+</FlowCallout>
